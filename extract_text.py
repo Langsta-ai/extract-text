@@ -44,7 +44,7 @@ def process_image_with_openai(client, image):
                     - Generate a unique description for each image
                     - Ensure coordinates match the actual image content
                     - Coodinates should be relative to the main image
-                    - Origin is at the top-left corner of the main image
+                    - Origin point is the top-left corner of the main image
                     - Content related images should be pointed to the content witout any overlap
                     """
                 },
