@@ -8,8 +8,8 @@ import io
 from dotenv import load_dotenv
 import time
 from tenacity import retry, wait_exponential, stop_after_attempt
-import numpy as np
 import re
+
 
 def optimize_image(image, max_size=(800, 800)):
     """Optimize image for OpenAI API"""
