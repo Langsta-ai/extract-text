@@ -2,3 +2,4 @@ output
 .env
 .venv
 *.pdf
+.DS_Store
